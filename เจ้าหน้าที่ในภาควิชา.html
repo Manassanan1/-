@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>เจ้าหน้าที่ในภาควิชา </title>
+    <link rel="stylesheet" href="บุคลากร/styles1.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .grid-item {
+            background-color: #F5FFFA;
+            border: 1px solid #000000;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .employee-image {
+            max-width: 100%;
+            max-height: 200px;
+            border-radius: 50%;
+        }
+
+        .employee p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo1.png" alt="KMUTNB Logo">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li class="dropdown">
+                        <a href="index.html">Home</i></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">About  <i class="fa fa-caret-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="ประวัติ.html">ประวัติ</a></li>
+                            <li><a href="สัญลักษณ์.html">สัญลักษณ์</a></li>
+                            <li><a href="philosophy.html">ปรัชญา</a></li>
+                            <li><a href="lifeinunivesity.html">กิจกรรมในรั้วมหาวิทยาลัย</a></li>
+                            <li><a href="รายงานประจำปี.html">รายงานประจำปี</a></li>
+                            <li><a href="หลักสูตร.html">หลักสูตร</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Internship  <i class="fa fa-caret-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="internship.html">ฝึกงาน</a></li>
+                            <li><a href="index.html">โครงงานพิเศษ</a></li>
+                            <li><a href="saha.html">สหกิจ</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Personnel  <i class="fa fa-caret-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="บุคลากร.html">บุคคลกร</a></li>
+                            <li><a href="เจ้าหน้าที่ในภาควิชา.html">เจ้าหน้าที่ในภาค</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Contact  <i class="fa fa-caret-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="ติดต่อ1.html">ติดต่อสอบถาม</a></li>
+                            <li><a href="System.html">ระบบสารสนเทศ</a></li>
+                            <li><a href="Name.html">Group</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br><br>
+    <h1>เจ้าหน้าที่ในภาควิชา </h1>
+
+    <div class="grid-container">
+        <!-- บุคลากรคนที่ 1 -->
+        <div class="grid-item">
+            <img src="บุคลากร/photo/t23.jpg" alt="รูปภาพของ John Doe" class="employee-image">
+            <h2>นายไกรมิตร พงษ์นิยะกูล</h2>
+            <p>อีเมล:kaimit.p@itm.kmutnb.ac.th</p>
+        </div>
+
+        <!-- บุคลากรคนที่ 2 -->
+        <div class="grid-item">
+            <img src="บุคลากร/photo/t24.jpg" alt="รูปภาพของ Jane Smith" class="employee-image">
+            <h2>นายกฤษณ์ เผือกงาม</h2>
+            <p>อีเมล:krit.p@itm.kmutnb.ac.th</p>
+        </div>
+
+        <div class="grid-item">
+            <img src="บุคลากร/photo/t25.jpg" alt="รูปภาพของ Jane Smith" class="employee-image">
+            <h2>นางลัดดา ตั้งเกียรติศิริ</h2>
+            <p>อีเมล:ladda.t@itm.kmutnb.ac.th</p>
+        </div>
+
+        <div class="grid-item">
+            <img src="บุคลากร/photo/t26.jpg" alt="รูปภาพของ Jane Smith" class="employee-image">
+            <h2>นางอุไรวรรณ วัตรยิ่ง</h2>
+            <p>อีเมล:uraiwan.w@itm.kmutnb.ac.th</p>
+        </div>
+
+        <div class="grid-item">
+            <img src="บุคลากร/photo/t27.jpg" alt="รูปภาพของ Jane Smith" class="employee-image">
+            <h2>นายวิวัช รุ่งสว่าง</h2>
+            <p>อีเมล: wivach.r@itm.kmutnb.ac.th</p>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>Copyright © 2020 Faculty of Industrial Technology and Management</p>
+    </div>
+
+        
+
+</body>
+</html>
